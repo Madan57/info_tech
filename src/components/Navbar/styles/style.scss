@@ -1,0 +1,39 @@
+.navlink {
+  font-size: 1rem;
+  margin-left: 5rem;
+  color: #753BBD;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.mobile {
+  .navlink {
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 0.5rem;
+    }
+  }
+}
+.ant-drawer-close {
+  color: #753BBD;
+}
+.ant-drawer-body {
+  background: #753BBD;
+  padding-top: 3rem;
+  .navlink {
+    color: #fff;
+  }
+}
+
+@media (max-width: 492px) {
+  .mobilestyle {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
