@@ -72,12 +72,13 @@ const Home = () => {
         </Col>
       </Row>
       <div
+        className="great-coworkers-card"
         style={{
           position: "absolute",
-          padding: "6rem",
+          padding: "0px !important",
           left: "0px",
-          height: "720px",
-          top: "850px",
+          height: "800px",
+          top: "900px",
           background: "#F9F3FF",
         }}
       >

@@ -239,8 +239,25 @@
 
 @media screen and (max-width: 768px) {
     .recuitement-card {
-        width: 340px !important;
+        width: 306px !important;
     }
     
 }
+
+
+@media screen and (min-width: 768px) {
+    .great-coworkers-card {
+        padding: 6rem !important;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .great-coworkers-card {
+        padding-top: 2rem !important;
+        
+        
+    }
+    
+}
+
 

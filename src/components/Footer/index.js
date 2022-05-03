@@ -52,7 +52,7 @@ function Footer() {
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
-              paddingRight: "2.5rem",
+              //   paddingRight: "2.5rem",
             }}
             sm={8}
           >
